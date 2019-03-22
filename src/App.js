@@ -62,7 +62,6 @@ reset = () => {
     return(
       <div>
         <div className="calculatorBody">
-          <h1>Calculator</h1>
           <Results result={this.state.result} />
           <Numberpad onClick = {this.onClick} />
         </div>

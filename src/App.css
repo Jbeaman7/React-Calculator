@@ -1,20 +1,27 @@
 body{
-  color: black;
-  background-color: aliceblue
+  color: white;
+  background-image: linear-gradient( to right, #ff014c, #2f0041) 
 }
 
 .calculatorBody{
   max-width: 400px;
   margin: auto;
+  background-color: black;
 }
 
 .button {
   display: block;
-  background-color: #bbb;
 }
 
 button {
   width: 25%;
   height: 60px;
+  font-size: 30px;
+  border: none;
+  color: white;
+  background-color: #282f37;
+}
+
+p{
   font-size: 30px;
 }
